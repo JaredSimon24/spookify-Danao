@@ -42,3 +42,62 @@ ol[class] {
   margin-top: var(--flow-spacer, var(--spacer));
 }
 /* Start Here */
+body {
+  margin: 100px;
+  padding: 50px;
+  margin-top: auto;
+  font-family: 'Poppins', sans-serif;
+  padding: auto;
+  border: solid;
+  
+} 
+.logo {
+  float: left;
+  font-size: 26px;
+  font-weight: bold;
+  color: #24126A;
+}
+b {
+  color:  #F55D3A;
+}
+nav {
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 0px;
+  padding-bottom: 100px;
+  
+}
+nav ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  color: #24126A;
+  padding: 5px 0px 5px 0px;
+}
+ul li {
+  float: left;
+  padding-left: 20px;
+
+}
+li a {
+  color: #3D2892;
+  font-weight: 600;
+}
+.hero img{
+  float: right;
+}
+h1 {
+  font-size: 64px;
+  color:  #F55D3A;
+  text-transform: uppercase;
+  padding: auto;
+}
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 34px;
+  color: #3D2892;
+  padding-top: 50px;
+
+}
