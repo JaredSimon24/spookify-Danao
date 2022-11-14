@@ -67,7 +67,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 b {
-color:  #F55D3A;
+ color:  #F55D3A;
 }
 .header {
   width: 100%;
@@ -132,6 +132,7 @@ color:  #F55D3A;
 footer{
   position: relative;
 }
+
 .stories__title {
   font-size: 23px;
   color: #24126A;
@@ -183,8 +184,7 @@ padding-top: 10px;
 .stories__paragraph {
   padding-bottom: 30px;
 }
-.stories__color-shadow
-.two{
+.stories__color-shadow.two{
   top:-6px;
   box-shadow: 130px -5px 0px 0px #16E0E0;
 }
@@ -192,8 +192,7 @@ padding-top: 10px;
   top: 0;
   box-shadow: -30px -20px 0px 0px #F55D3A ;
 }
-.two, 
-.stories__color-shadow {
+.two, .stories__color-shadow {
   max-height: 90%;
   z-index: -7;
   width: 50%;
@@ -258,14 +257,13 @@ padding-top: 10px;
   text-transform: none;
   padding-left: 120px;
 }
-.email, 
-.submit {
+.submit, .email{
   border: #FFFAFB;
   margin-top: 15%;
   padding: 10px 30px;
-  margin-left: 60%;
+  margin-left: 61%;
 }
-.credits {
+.credits{
   font-size: 18px;
   margin-top: 24%;
   color: #FFFAFB;
