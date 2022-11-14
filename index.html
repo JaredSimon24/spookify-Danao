@@ -14,93 +14,108 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <p class="logo">spook<b>ify</b>.</p>
-            <ul>
-                <li>Stories</li> 
-                <li>Authors</li>
-                <li>Contact</li>
-                <li><a href="#">Sign Up</a></li>
+    <header class="header">
+        <nav class="header__nav">
+            <p class="header__nav-logo">spook<b>ify</b>.</p>
+            <ul class="header__nav__ul">
+                <li class="header__nav__li">Stories</li> 
+                <li class="header__nav__li">Authors</li>
+                <li class="header__nav__li">Contact</li>
+                <li class="header__nav__li"><a href="#">Sign Up</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="hero">
-            <div>
-                <figure>
-                    <img src="images/landing-image.png" alt="Pumpkin Image">
+    <main class="main">
+        <section class="main__hero">
+            <div class="hero_text" style="line-height: 9rem; padding: 90px 0px">
+                <figure class="hero_main-image">
+                    <img src="images/landing-image.png" alt="Pumpkin Image"  width="350" height="350">
                 </figure>
-                <h1>Tales of the Undead</h1>
-                <h2>Scare yourself, scare your friends, for all we care</h2>
-                <a href="#">Get Started</a>
-            </div>
+                <h1 class="hero__title">Tales of the Undead</h1>
+                <h2 class="hero__subtitle">Scare yourself, scare your friends,<br> for all we care</h2>
+                <a href="#" id="btn-signup-button">Sign Up</a>
+            </div>   
         </section>
+
         <section class="stories">
-            <div>
-                <div>
-                    <figure>
-                        <img src="" alt="Top Story - Paramdam">
-                    </figure>
-                    <h3>Paramdam</h3>
-                    <p>Mga bandang gabi or madaling araw nagising sya kasi may dumadaan sa bintana kaya binuksan nya
-                        pinto nun, pag bukas ng pinto nakita nya daw si papa naka upo dun sa pwesto nys ng pinag
-                        iinuman. Iyak ng iyak ate ko nun, kwento ng lola ko na hindi na rin nakapag tinda dahil sa
-                        takot.
-                        Kinabukasan, dun na rin ako natulog samin pero sumama pa rin pinsan ko dahil sa takot. </p>
+            <h2 class="stories__top">Top Stories</h2>
+            <div class="stories__container">
+                <div class="stories__content">
+                    <div class="stories__wrapper-content">
+                        <figure class="stories__content-img">
+                            <div class="stories__color-shadow">
+                            </div>
+                            <img src="images/paramdam.png" alt="Top Story - Paramdam" id="stories-img">
+                        </figure>
+                        <div class="stories__content-text">
+                            <h3 class="stories__title">Paramdam</h3>
+                            <p class="stories__paragraph">Mga bandang gabi or madaling araw nagising sya kasi may dumadaan sa bintana kaya binuksan nya
+                                pinto nun, pag bukas ng pinto nakita nya daw si papa naka upo dun sa pwesto nys ng pinag
+                                iinuman. Iyak ng iyak ate ko nun, kwento ng lola ko na hindi na rin nakapag tinda dahil sa
+                                takot.
+                                <br><br>
+                                Kinabukasan, dun na rin ako natulog samin pero sumama pa rin pinsan ko dahil sa takot. </p>
+                            <p class="stories__button">Read More...</p>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <figure>
-                        <img src="" alt="Top Story - Senyales">
-                    </figure>
-                    <h3>Senyales</h3>
-                    <p>Kinaumagahan may tumawag sakin na ka trabaho ko. May naganap daw na barilan sa labas ng
-                        tinatrabahoan namin at may patay isa nabaril raw. May damage rin ang store na pinagtrabahoan
-                        namin.
-                        Sobrang kabog ng dibdib ko dahil kung hindi lang ako sinabihan ng mag inang yun, siguro ako yung
-                        nabiktima nung gabing yun, laking pasasalamat ko sa mag inang yun, sinubukan ko silang hanapin
-                        pero hindi ko mahanap.</p>
+                <div class="stories__content">
+                    <div class="stories__wrapper-content">
+                        <div class="stories__content-text">
+                            <h3 class="stories__title">Senyales</h3>
+                            <p class="stories__paragraph">Kinaumagahan may tumawag sakin na ka trabaho ko. May naganap daw na barilan sa labas ng
+                                tinatrabahoan namin at may patay isa nabaril raw. May damage rin ang store na pinagtrabahoan
+                                namin. <br><br>
+                                Sobrang kabog ng dibdib ko dahil kung hindi lang ako sinabihan ng mag inang yun, siguro ako yung
+                                nabiktima nung gabing yun, laking pasasalamat ko sa mag inang yun, sinubukan ko silang hanapin
+                                pero hindi ko mahanap.</p>
+                            <p class="stories__button">Read More...</p>
+                        </div>
+                        <figure class="stories__content-img">
+                            <div class="stories__color-shadow two">
+                                
+                            </div>
+                            <img src="images/senyales.png" alt="Top Story - Senyales">
+                        </figure>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="authors">
-            <div>
-                <div>
+            <h2 class="author__top">Top Authors</h2>
+            <div class="author__container">
+                <div class="author_content">
                     <figure>
                         <img src="images/author-cris.png" alt="Top Author #1">
-                        <h3>Cris James</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque arcu facilisis sodales
-                            aliquam dolor sit luctus amet. Aliquet egestas amet amet iaculis orci eget eu.</p>
+                        <h3 class="author__name" style="line-height:5rem;">Cris James</h3>
+                        <p class="author__story">Story: Paramdam<br>Published 2020</p>
                     </figure>
                 </div>
-                <div>
+                <div class="author_content">
                     <figure>
                         <img src="images/author-katie.png" alt="Top Author #2">
-                        <h3>Katie Kim/h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque arcu facilisis
-                                sodales
-                                aliquam dolor sit luctus amet. Aliquet egestas amet amet iaculis orci eget eu.</p>
+                        <h3 class="author__name" style="line-height:5rem;">Katie Kim</h3>
+                            <p  class="author__story">Story: Senyales<br>Published 2009</p>
                     </figure>
                 </div>
-                <div>
+                <div class="author_content">
                     <figure>
                         <img src="images/author-scarlette.png" alt="Top Author #3">
-                        <h3>Scarlette Dickinson</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque arcu facilisis sodales
-                            aliquam dolor sit luctus amet. Aliquet egestas amet amet iaculis orci eget eu.</p>
+                        <h3 class="author__name" style="line-height:5rem;">Scarlette Dickinson</h3>
+                        <p  class="author__story">Story: Halik na Itim<br>Published 2022</p>
                     </figure>
                 </div>
             </div>
         </section>
-        <footer>
-            <div>
-                <h1>Dare to Spookify</h1>
-                <input type="text" placeholder="Enter your Email Address">
-                <input type="submit" value="Spook Us">
-                <p>©2022 Spookify 🎃, Inc. Terms & Conditions, Privacy</p>
-            </div>
-        </footer>
     </main>
-</body>
-
+    <footer>
+        <div class="footer">
+            <h1 class="footer__title">Dare to spookify?</h1>
+            <input type="text" placeholder="Enter your Email Address" class="email"">
+            <input type="submit" value="Spook Us" class="submit">
+            <p class="credits">©2022 Spookify 🎃, Inc. Terms & Conditions, Privacy</p>
+            <div><img src="images/Vector.png" class="img-footer" alt=""></div>
+        </div>
+    </footer>
+    </body>
 </html>
